@@ -154,13 +154,10 @@ body {
   padding-bottom: 94px;
 }
 
-.text-btn {
-padding: 6px 22px;
-}
-
 .portfolio-btn {
   display: inline-block;
   font-family: inherit;
+  padding: 6px 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
@@ -194,7 +191,7 @@ padding: 6px 22px;
 }
 
 .portfolio-title {
-  padding: 20px 24px;
+  padding: 0px 24px 20px 24px;
   border-color: var(--white-color);
   border: 1px solid #EEEEEE;
 
@@ -216,9 +213,13 @@ ul {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-.list {
+
+.our-advantage {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.list {
   display: flex;
   gap: 30px;
   list-style: none;
@@ -244,6 +245,10 @@ ul {
   color: var(--text-color);
 }
 
+.what-we-do {
+  padding-bottom: 94px;
+}
+
 .about-us {
   margin-bottom: 50px;
   font-size: 36px;
@@ -263,7 +268,6 @@ img {
 }
 
 .list-img {
-  padding-bottom: 94px;
   display: flex;
   gap: 30px;
   list-style: none;
